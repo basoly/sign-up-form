@@ -1,0 +1,93 @@
+body {
+    display:flex;
+}
+
+.form-body {
+border-style: dashed;
+border-color: red;
+}
+
+.sidebar {
+    border-style: dashed;
+    border-color: red;
+}
+
+.sidebar img {
+    width: 30vw;
+    height: auto;
+}
+/* set size of image to be relative units (1rem or 1vh/1vh) */
+/* set logo over image */
+
+.logo img {
+    max-width: 50px;
+    height: auto;
+    /* position:absolute;
+    top: 10[] */
+}
+
+.logo {
+    background-color: rgba(0,0,0,.4);
+    border: red dashed 1px;
+    position: absolute;
+    top: 20vh;
+    padding-left: 10vw ;
+    padding-right: 13.5vw;
+    /* opacity: 0.5; */
+}
+
+.top {
+    font-weight: bold;
+    font-size: 20px;
+    margin:20px;
+    margin-top: 60px;
+    border-color: blue;
+    border-style:dashed;
+    border-width: 1px;
+    max-width: 500px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle {
+    box-shadow: 5px; /* shadow for middle portion */
+    margin: 30px;
+    border-color: blue;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+
+.middle-text {
+    font-weight: bold;
+}
+
+.input-boxes {
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+    padding: 5px;
+    margin:5px;
+}
+
+.form-labels {
+    border-color: red;
+}
+
+.bottom {
+    margin: 50px;
+    border-color: blue;
+    border-style:dashed;
+    border-width: 1px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+}
+
+.login-text {
+    color: green;
+    font-weight: bold;
+}
+
