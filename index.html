@@ -9,8 +9,8 @@
 <body>
     <div class="sidebar">
         <img class='signup-pic' src="sign-up-pic.png" alt="Picture of leaves">
-        <div class="logo">
-            <img src="logo-img.png" alt="logo of form">
+        <div class="logo">Logo
+            <!-- <img src="" alt="logo of form"> -->
         </div>
     </div>
     <div class="form-body"> 
@@ -23,30 +23,37 @@
         </div>
         <div class="middle">
             <div class="middle-text">Let's do this!</div>
-            <form action="example.com/path" method="post" class="form-container">
-                <div class="input-boxes">
-                    <input type="text" id="first-name" required>
-                    <input type="text" id="last-name" required>
-                    <input type="email" id="email" required>
-                    <input type="tel" id="phone" required>
-                    <input type="password" id="password" required>
-                    <input type="password" id="confirm" required> 
-                </div>
-
-                <div class="form-labels">
+            <form action="example.com/path" method="post" class="form-container">                
+                <div class="field-container">
                     <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" required>
+                </div>
+                <div class="field-container">
                     <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" required>
+                </div>
+                <div class="field-container">
                     <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="field-container">
                     <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="field-container">
                     <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="field-container">
                     <label for="confirm">Confirm Password</label>
+                    <input type="password" id="confirm" required> 
                 </div>
             </form>
         </div>
         <div class="bottom">
             <button class="button">Create Account</button>
             <div>Already have an account?</div>
-            <div class="login-text">Log in</div>
+            <div class="login-text">Log in!</div>
         </div>
     </div> 
 </body>
